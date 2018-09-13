@@ -196,9 +196,17 @@ p{
 	display: inline-block;
 	text-align: right;
 }
-.socialnetwork{ 
-	float:left;
-	max-height: 80px;	
+@media screen and (max-width: 412px) {
+	.socialnetwork{ 
+		float:left;
+		max-height: 60px;	
+	}
+}
+@media screen and (min-width: 412px) {
+	.socialnetwork{ 
+		float:left;
+		max-height: 80px;	
+	}
 }
 .socialnetworkfoot{ 
 	float:left;

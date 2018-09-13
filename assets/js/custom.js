@@ -2,27 +2,27 @@ $(document).ready(function() {
 		var mainOffset = $("#header").offset().top;
 		$("#link_inicio").click(function(){
 			$('html, body').animate({
-					scrollTop: $("#home").offset().top - 131		}, 600);
+					scrollTop: $("#home").offset().top - 111		}, 600);
 		});
 		$("#link_quees").click(function(){
 			$('html, body').animate({
-					scrollTop: $("#que_es").offset().top - 131
+					scrollTop: $("#que_es").offset().top - 111
 			}, 600);
 		});
 		$("#link_equipo").click(function(){
 			$('html, body').animate({
-					scrollTop: $("#equipo").offset().top - 131
+					scrollTop: $("#equipo").offset().top - 111
 			}, 600);
 		});
 		$("#link_contacto").click(function(){
 			$('html, body').animate({
-					scrollTop: $("#contacto").offset().top - 131
+					scrollTop: $("#contacto").offset().top - 111
 			}, 600);
 		});
 
 		$("#home-btn").click(function(){
 			$('html, body').animate({
-					scrollTop: $("#que_es").offset().top - 131
+					scrollTop: $("#que_es").offset().top - 111
 			}, 600);
 			//$("#video-umvral")[0].src += "&autoplay=1";
 		});

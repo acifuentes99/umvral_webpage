@@ -27,6 +27,7 @@ $(document).ready(function() {
 			//$("#video-umvral")[0].src += "&autoplay=1";
 		});
 
+
 });
 
 var myvid = document.getElementById('myvideo');
@@ -105,3 +106,15 @@ myvid.addEventListener('ended', function(e) {
 
     });
   }
+/*
+function resize() {
+    $("body").css({
+			//width:  $(window).width(),
+			width:  window.innerWidth,
+	});
+}
+ resize();
+$(window).resize(function(){
+ resize();
+});
+*/
